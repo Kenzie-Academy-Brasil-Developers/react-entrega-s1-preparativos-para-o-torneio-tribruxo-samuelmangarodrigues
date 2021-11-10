@@ -81,9 +81,15 @@ body h1 {
   width: 250px;
   height: 40px;
   font-size: 25px;
+  margin-bottom: 20px;
 }
 .Btns:hover {
   background-color: white;
   color: green;
   transition: 0.5s;
+}
+@media (min-width: 320px) and (max-width: 1050px) {
+  .containerCards {
+    flex-direction: column;
+  }
 }

@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+@media (min-width: 500px) and (max-width: 1050px) {
+  .App-header {
+    background-repeat: round;
+    background-size: cover;
+  }
+}
+@media (min-width: 320px) and (max-width: 499px) {
+  .App-header {
+    background: black;
+  }
+}
