@@ -4,7 +4,10 @@
 .container h1 {
   font-size: 36px;
 }
-.container h2 {
+body h1 {
+  color: white;
+}
+.container span {
   font-size: 25px;
   margin: 5px;
 }
@@ -20,34 +23,53 @@
 }
 .cardsGrif {
   width: 300px;
-  height: 550px;
+  height: 606px;
   border: 3px solid red;
   border-radius: 6px;
   margin: 40px;
-  color: red;
+  color: rgb(255, 0, 0);
   padding: 0;
+}
+.cardsGrif:hover {
+  width: 312px;
+  height: 617px;
+  transition: 0.5s;
 }
 .cardHuf {
   width: 300px;
-  height: 550px;
-  border: 3px solid yellow;
+  height: 606px;
+  border: 3px solid rgb(255, 255, 11);
   color: yellow;
   border-radius: 6px;
   margin: 40px;
   padding: 0;
 }
+.cardHuf:hover {
+  width: 312px;
+  height: 617px;
+  transition: 0.5s;
+}
 .cardSli {
   width: 300px;
-  height: 550px;
+  height: 606px;
   color: green;
-  border: 3px solid green;
+  border: 3px solid rgb(10, 221, 10);
   border-radius: 6px;
   margin: 40px;
   padding: 0;
 }
+.cardSli:hover {
+  width: 312px;
+  height: 617px;
+  transition: 0.5s;
+}
 .imgs {
   width: 300px;
   height: 300px;
+}
+.imgs:hover {
+  width: 311px;
+  transition: 0.5s;
 }
 .name {
   color: white;
@@ -63,7 +85,5 @@
 .Btns:hover {
   background-color: white;
   color: green;
-  width: 259px;
   transition: 0.5s;
-  font-size: 28px;
 }

@@ -12,10 +12,21 @@ const CardStudents = ({ name, house, patronus, image, species }) => {
         }
         alt={name}
       />
-      <h1 className="name">{name}</h1>
-      <h2>Casa: {house}</h2>
-      <h2>Patrono: {patronus}</h2>
-      <h2>Espécie: {species}</h2>
+      <div>
+        <h1 className="name">{name}</h1>
+        <span>
+          {" "}
+          <strong>Casa: </strong>{" "}
+          {house === "" ? <div>Casa não informada</div> : house}
+        </span>
+        <span>
+          <strong>Patrono: </strong>
+          {patronus === "" ? <div>Patrono não informado</div> : patronus}
+        </span>
+        <span>
+          <strong>Espécie: </strong> {species}
+        </span>
+      </div>
     </div>
   );
 };

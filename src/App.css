@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: black;
+  background-image: url(https://images.ctfassets.net/usf1vwtuqyxm/FguKzCQXYbXvJMS27FKqZ/5a936f1febc6e5767626c1831ded406a/USH_Hogwarts2_VB.jpg);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
