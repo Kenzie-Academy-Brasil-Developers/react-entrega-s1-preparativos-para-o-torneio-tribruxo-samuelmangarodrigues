@@ -92,4 +92,12 @@ body h1 {
   .containerCards {
     flex-direction: column;
   }
+  .containerCards ul {
+    margin: 0;
+  }
+}
+@media (min-width: 1051px) and (max-width: 1160px) {
+  .containerCards ul {
+    margin: 10px;
+  }
 }
